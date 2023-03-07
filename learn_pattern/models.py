@@ -90,7 +90,7 @@ class Batch:
     
     def __next__(self):
         if self.allocated_quntity > 0:
-            return iter(self.fr)
+            return iter(self.allocated_quntity)
         else:
             raise StopIteration
 

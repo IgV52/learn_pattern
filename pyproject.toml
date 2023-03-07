@@ -9,6 +9,7 @@ packages = [{include = "learn_pattern"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pytest = "^7.2.2"
+sqlalchemy = "^1.4.46"
 
 [build-system]
 requires = ["poetry-core"]
